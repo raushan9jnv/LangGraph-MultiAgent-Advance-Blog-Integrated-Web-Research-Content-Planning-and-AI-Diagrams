@@ -471,22 +471,69 @@ else:
 # 🚀 FOOTER: MADE WITH LOVE BY RAUSHAN KUMAR
 # ==========================================
 st.markdown("---")
+
 footer_html = """
-<div style="text-align: center; padding: 30px; margin-top: 20px;">
-    <p style="color: #94A3B8; font-family: 'Courier New', Courier, monospace; font-size: 0.9rem; letter-spacing: 1px;">
-        MADE WITH <span style="color: #EF4444;">❤</span> BY 
-        <span style="color: #F8FAFC; font-weight: 800; border-bottom: 2px solid #F59E0B;">RAUSHAN KUMAR</span>
+<style>
+.footer-container {
+    text-align: center;
+    padding: 24px 0;
+    margin-top: 30px;
+}
+
+.footer-text {
+    color: #CBD5E1;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.footer-name {
+    color: #FFFFFF;
+    font-weight: 900;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #F59E0B;
+    text-shadow: 0 0 8px rgba(245, 158, 11, 0.6);
+}
+
+.linkedin-btn {
+    margin-top: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #0F172A, #1E293B);
+    border: 1px solid #334155;
+    padding: 8px 22px;
+    border-radius: 999px;
+    color: #38BDF8;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.linkedin-btn:hover {
+    background: linear-gradient(135deg, #1E293B, #0F172A);
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+    transform: translateY(-2px);
+}
+</style>
+
+<div class="footer-container">
+    <p class="footer-text">
+        MADE WITH <span style="color:#EF4444;">❤</span> BY
+        <span class="footer-name"> RAUSHAN KUMAR </span>
     </p>
-    <div style="margin-top: 15px;">
-        <a href="https://www.linkedin.com/in/raushaniitp/" target="_blank" style="text-decoration: none;">
-            <div style="display: inline-flex; align-items: center; background: #1E293B; border: 1px solid #334155; padding: 8px 20px; border-radius: 50px; color: #38BDF8; font-weight: 600; font-size: 0.8rem; transition: 0.3s ease;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 10px;">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                </svg>
-                CONNECT ON LINKEDIN
-            </div>
-        </a>
-    </div>
+
+    <a class="linkedin-btn"
+       href="https://www.linkedin.com/in/raushaniitp/"
+       target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+             fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg>
+        CONNECT ON LINKEDIN
+    </a>
 </div>
 """
+
 st.markdown(footer_html, unsafe_allow_html=True)
