@@ -1,5 +1,9 @@
+
 # LangGraph-MultiAgent-Advance-Blog-Integrated-Web-Research-Content-Planning-and-AI-Diagrams" 
-# Result after Running
+## Architecture Diagram
+<img width="160" height="630" alt="image" src="https://github.com/user-attachments/assets/616c4a2c-9861-41fc-91cb-354c70baa009" />
+
+## Result after Running
 
 ## Plan
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1b9799af-cb65-4cd1-a235-f5111e947d96" />
