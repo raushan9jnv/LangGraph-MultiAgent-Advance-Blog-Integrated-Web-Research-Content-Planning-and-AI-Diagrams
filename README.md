@@ -1,14 +1,5 @@
 
 # LangGraph-MultiAgent-Advance-Blog-Integrated-Web-Research-Content-Planning-and-AI-Diagrams" 
-## Architecture Diagram
-<img width="906" height="906" alt="image" src="https://github.com/user-attachments/assets/c2de5819-626b-4f92-b717-40e08f75ac3e" />
-
-<img width="1008" height="853" alt="image" src="https://github.com/user-attachments/assets/bae41043-6417-484f-9577-48de750f1243" />
-
-
-<img width="160" height="630" alt="image" src="https://github.com/user-attachments/assets/616c4a2c-9861-41fc-91cb-354c70baa009" />
-
-
 # Details
 
 # Multimodal Blog Writer using LangGraph + Gemini
@@ -32,23 +23,11 @@ KEY FEATURES
 HIGH-LEVEL ARCHITECTURE
 --------------------------------------------------
 
-START
-  |
-  v
-Router
-  |-- needs_research = true --> Research --> Orchestrator
-  |-- needs_research = false ----------------> Orchestrator
-                                                |
-                                                v
-                                            Fanout
-                                          /    |    \
-                                     Worker1 Worker2 WorkerN
-                                          \    |    /
-                                               v
-                                             Reducer
-                                               |
-                                               v
-                                              END
+<img width="1008" height="853" alt="image" src="https://github.com/user-attachments/assets/bae41043-6417-484f-9577-48de750f1243" />
+
+<img width="906" height="906" alt="image" src="https://github.com/user-attachments/assets/c2de5819-626b-4f92-b717-40e08f75ac3e" />
+
+<img width="160" height="630" alt="image" src="https://github.com/user-attachments/assets/616c4a2c-9861-41fc-91cb-354c70baa009" />
 
 --------------------------------------------------
 AGENT OVERVIEW
